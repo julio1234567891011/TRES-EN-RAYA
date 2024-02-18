@@ -1,0 +1,35 @@
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+    
+    width: 300px; /* Ancho fijo en píxeles */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    background-color: #e0dd15
+  }
+  
+  .board-cell {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  b {
+    
+    display: flex;
+    margin-top: 35%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  /* Aplicar colores específicos a las columnas */
+  #cell00, #cell10, #cell20 { background-color: red; }
+  #cell01, #cell11, #cell21 { background-color: green; }
+  #cell02, #cell12, #cell22 { background-color: blue; }

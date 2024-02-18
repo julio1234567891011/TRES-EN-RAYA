@@ -1,0 +1,15 @@
+{
+  "name": "tres-en-raya",
+  "version": "1.0.0",
+  "description": "recursos para el juego",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  }
+}
